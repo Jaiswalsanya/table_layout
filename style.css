@@ -13,20 +13,23 @@ body{
     background-color: brown;
 }
 .page{
-    background-color: white;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    
+    min-width: 90%;
+  
+   
+   
+}
+.table_responsive{
+    overflow-x: auto;
    
 }
 
-
 table{
-    width: 100%;
+    min-width: 1200px;
     border-spacing: 0;
     border-collapse: collapse;
     border: 1px solid rgb(73 61 61);
+    position: relative;
+    
 }
  
 th,td{
@@ -71,11 +74,11 @@ th,td{
     font-size: 11px;
     
 }
+.color-8{
+    background-color: var(--text-color);
+}
 tr:nth-child(even){
     background-color: rgb(213, 216, 215);
 }
 
-@media screen and (max-width:768px)
-{
 
-}
